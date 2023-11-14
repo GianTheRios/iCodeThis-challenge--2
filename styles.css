@@ -1,0 +1,103 @@
+/* Add CSS here */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  
+} */
+
+.container {
+  height: 100vh;
+  min-width: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 145, 198);
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  border-radius: 0.6rem;
+  padding: 2.3rem;
+  box-shadow: 40px 50px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 0.7rem;
+}
+
+.users {
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+.users2 {
+  display: flex;
+  margin-top: 1rem;
+}
+.users3 {
+  display: flex;
+  margin-top: 1rem;
+}
+.users4 {
+  display: flex;
+  margin-top: 1rem;
+}
+.users5 {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.user__info p {
+  color: rgba(0, 0, 0, 0.639);
+}
+
+.user__img,
+img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  margin-top: 1rem;
+  padding: 0.6rem 0rem;
+  border: none;
+  border-radius: 0.2rem;
+  /* linear gradient */
+  background-image: linear-gradient(
+    90deg,
+    rgb(247, 126, 190) 50%,
+    rgb(243, 141, 207) 100%
+  );
+  color: white;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    90deg,
+    rgb(238, 146, 206) 50% rgba(245, 145, 198, 1) 100%
+  );
+}
